@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="MainBlock">
+        <header>
+            <div><img src="Html/logo.svg"></div>
+            <div>
+                <nav class="nav1">
+                    <ul style="margin-left:6%">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Html/about.html">About</a></li>
+                        <li><a href="Html/tags.html">Tags</a></li>
+                        <li><a href="Html/recipes.html">Recipes</a></li>
+                    </ul>
+                </nav>
+                <div>
+                </div>
+            </div>
+            <div class="burger">
+                <button id="burgerbtn" onclick="nav_button()">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div><button><a href="Html/contact.html" style="color: white;text-decoration: none;">Contact</a></button></div>
+
+        </header>
+        <nav id="nav2" class="nav2">
+            <ul style="margin-left:6%">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Html/about.html">About</a></li>
+                <li><a href="Html/tags.html">Tags</a></li>
+                <li style="border-bottom: 1px solid gray;margin-bottom: 10px;"><a href="recipes.html">Recipes</a></li>
+
+            </ul>
+            <div>
+                <center> <button style="margin-left: 10%;"><a href="contact.html"
+                            style="color: white;text-decoration: none;">Contact</a></button></center>
+            </div>
+        </nav>
+        <main>
+            <div>
+                <h1 style="font-size: 60px">Simply Recipes</h1>
+            </div>
+            <div>
+                <h4 style="font-size: 24.9px;">No Fluff,Just Recipes</h4>
+            </div>
+        </main>
+        <div class="RecipeMainBlock">
+            <div class="Recipes">
+                <div>
+                    <h2 style="color: black;font: 24px;font-weight: 100;">Recipes</h2>
+                </div>
+                <div class="Recipes_transform">
+                    <div><a style="color: #808080;" href="Html/tag-template.html">Beer(1)</a></div>
+                    <div><a style="color: #808080;" href="Html/tag-template.html">Breakfast(2)</a></div>
+                    <div><a style="color: #808080;" href="Html/tag-template.html">Carrot(3)</a></div>
+                    <div><a style="color: #808080;" href="Html/tag-template.html">Food(4)</a></div>
+                </div>
+            </div>
+            <div>
+                <div class="Recipes_list">
+                    <div><a href="Html/single-recipe.html">
+                            <img class="Recipe_img" src="Html/recipe-1.jpeg">
+                            <h3 style="margin-bottom: 10px;color: black;">Carne Asada</h3>
+                            <h5 class="Recipe_timings">Prep : 15min | Cook:5min</h5>
+                        </a>
+                    </div>
+                    <div><a href="Html/single-recipe.html">
+                            <img class="Recipe_img" src="Html/recipe-2.jpeg">
+                            <h3 style="margin-bottom: 10px;color: black;">Greek Ribs</h3>
+                            <h5 class="Recipe_timings">Prep : 15min | Cook:5min</h5>
+                        </a>
+                    </div>
+                    <div><a href="Html/single-recipe.html">
+                            <img class="Recipe_img" src="Html/recipe-3.jpeg">
+                            <h3 style="margin-bottom: 10px;color: black;">Vegetable Soup</h3>
+                            <h5 class="Recipe_timings">Prep : 15min | Cook:5min</h5>
+                        </a>
+                    </div>
+                    <div><a href="Html/single-recipe.html">
+                            <img class="Recipe_img" src="Html/recipe-4.jpeg">
+                            <h3 style="margin-bottom: 10px;color: black;">Banana Pancake</h3>
+                            <h5 class="Recipe_timings">Prep : 15min | Cook:5min</h5>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <center>
+                <p>© 2023 <span>Simply Recipe</span> Built by <span>Anonymous</span> </p>
+            </center>
+        </footer>
+
+        <script>
+            
+        </script>
+
+        <link rel="stylesheet" href="Style/home.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="Script/burgerbtn.js"></script>
+</body>
+
+
+</html>

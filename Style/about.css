@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+}
+
+header {
+    margin: 0 13%;
+    display: grid;
+    grid-template-columns: 20% 74% 1%;
+    margin-top: 15px;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    font-weight: 100;
+
+}
+
+header a:hover {
+    color: #645cff;
+}
+
+button {
+    background-color: #645cff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    
+}
+
+main{
+    line-height: 40px;
+    font-weight: 100;
+    margin: 0 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+    align-items: center;    
+    grid-template-rows: 400px;
+}
+.img{
+    
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    display: block;
+    border-radius: 0.25rem;
+}
+.MainContact{
+    padding: 10px 30px;
+}
+.MainContact a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+section{
+    margin: 0 13%;
+    display: flex;
+    flex-direction: column;
+
+}
+.recipe_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem 1rem;
+    grid-template-rows: 10rem;
+}
+.recipe_img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+}
+.Recipe_timings {
+    color: #808080;
+    margin-top: 0;
+
+}
+footer {
+    margin-top: 80px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    align-content: center;
+
+
+}
+
+footer span {
+    color: blue;
+}
+
+@media(max-width:832px){
+    header{
+        margin-bottom:100px; 
+    }
+}
+@media(max-width:950px){
+    section{
+        margin: 0 6%; 
+        margin-top: 100px;
+    }
+    main{
+        margin: 0 6%;
+        grid-template-columns: 1fr;
+    }
+    .img{
+        height: 300px; 
+        width: 100%;    
+        object-fit: cover;
+
+    }
+    header{
+        margin: 0 6%;
+    }
+}
+@media(max-width:1200px){
+    .recipe_list{
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem 4rem;
+        grid-template-rows: 10rem 10rem;
+    }
+}
+@media(max-width:600px){
+    .recipe_list{
+        grid-template-columns: 1fr;
+        gap: 4rem 4rem;
+        grid-template-rows: 10rem 10rem 10rem;
+    }
+
+}

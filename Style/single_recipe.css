@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+}
+
+header {
+    margin: 0 13%;
+    display: grid;
+    grid-template-columns: 20% 74% 1%;
+    margin-top: 15px;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    font-weight: 100;
+
+}
+
+header a:hover {
+    color: #645cff;
+}
+
+button {
+    background-color: #645cff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    
+}
+main{
+    margin: 0 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+.content{
+    line-height: 1.75rem;
+}
+.recipe_icons i{
+    font-size: 30px;
+    color: #645cff;
+
+}
+.recipe_icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+article {
+    align-items: center;
+    text-align: center;
+}
+.recipe_tags a{
+    text-decoration: none;
+    background-color:#645cff ;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    border-radius: 0.25rem;
+}
+section{
+    margin: 0 13%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5rem;
+}
+.Instructions_step_seperation{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+.line{
+    height: 1px;
+    background-color: #645cff;
+
+}
+.Instructions{
+    line-height: 1.75rem;
+}
+.right_section{
+    display: flex;
+    flex-direction: column;
+    line-height: 4rem;
+}
+footer {
+    margin-top: 90px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    align-content: center;
+    width: 100%;
+
+
+}
+
+footer span {
+    color: blue;
+}
+
+@media(max-width:1000px){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
